@@ -49,5 +49,7 @@ public class Main {
         sorted = sorted.coalesce(1);
         List<Tuple2<Long,String>> result = sorted.take(50);
         result.forEach(System.out::println);
+
+
     }
 }
